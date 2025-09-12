@@ -27,3 +27,14 @@ const user = {
     }
 }
 console.log(user.address.street.first);
+
+// optional chain
+const user2 = {
+    id: 5001,
+    name: 'Hossain',
+    address: {
+        city: 'Dhaka',
+        country: 'Bangladesh'
+    }
+}
+console.log(user2.address.street?.first);
