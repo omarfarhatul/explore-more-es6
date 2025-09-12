@@ -7,7 +7,6 @@ console.log(selected);
 const selected2 = players.filter(p =>p > 80);
 console.log(selected2);
 
-
 // odd number of height
 const selected3=players.filter(p => p%2===1);
 console.log(selected3);
