@@ -17,3 +17,15 @@ console.log(output);
 // another
 const output2=numbers.map(n => n*2);
 console.log(output2);
+
+// bonous 5 add
+const fiveBonus = numbers.map(num => num+5);
+console.log(fiveBonus);
+
+// length ber kora
+const friends = ['Tom', 'John', 'RajaSab', 'Badshah'];
+const lengths=friends.map(frd => frd.length);
+console.log(lengths);
+// first string
+const firstletter=friends.map(fletter => fletter[2]);
+console.log(firstletter);
