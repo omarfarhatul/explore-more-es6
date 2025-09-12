@@ -12,3 +12,18 @@ const products = {
 // second product price
 console.log(products.data[1].price);
 console.log(products.data[0].name);
+
+
+const user = {
+    id: 5001,
+    name: 'Hossain',
+    address: {
+        street: {
+            first: '53/1 uttara',
+            second: 'mirpur',
+            third: 'savar'
+        },
+        city: 'Dhaka'
+    }
+}
+console.log(user.address.street.first);
