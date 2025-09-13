@@ -9,6 +9,7 @@ class vehicle{
 }
 const car=new vehicle('Toyota', 120000);
 console.log(car);
+car.moveBy();
 
 
 class Bus extends vehicle{
