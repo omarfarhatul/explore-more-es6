@@ -10,6 +10,7 @@ const output=multiply(n1, n2);
 console.log(output);
 
 
+
 let student1={name: 'Jalal', partner: 'Mim'};
 let student2={name: 'Robi', partner: 'Mariya'};
 function makeMovie(couple1, couple2){
