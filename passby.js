@@ -1,3 +1,4 @@
+// primitice types are pass by value
 let n1=4; 
 let n2=6;
 function multiply(a, b){
@@ -11,6 +12,7 @@ console.log(output);
 
 
 
+// object and array passby referance
 let student1={name: 'Jalal', partner: 'Mim'};
 let student2={name: 'Robi', partner: 'Mariya'};
 function makeMovie(couple1, couple2){
