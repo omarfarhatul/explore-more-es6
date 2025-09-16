@@ -11,7 +11,6 @@ const output=multiply(n1, n2);
 console.log(output);
 
 
-
 // object and array passby referance
 let student1={name: 'Jalal', partner: 'Mim'};
 let student2={name: 'Robi', partner: 'Mariya'};
